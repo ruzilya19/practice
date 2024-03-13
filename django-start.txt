@@ -34,9 +34,9 @@ SECRET_KEY = os.getenv('SECRET')
 from django.core.management.utils import get_random_secret_key
 print(get_random_secret_key())
 
-Выдаст что-то наподобии 6a0kj6z06h2(m$*)111_-(tq2_c+^+^k$&=8w8*s4r9*8j6v+h
+Выдаст что-то наподобии 6a0kj6z06h2(m$*)111_-(tq2_c+^+^k$&=8w8*s4r9*8j6v+h)
 В файл .env соответсвенно записать(можно прямо также, без генерации выше)
-SECRET="6a0kj6z06h2(m$*)111_-(tq2_c+^+^k$&=8w8*s4r9*8j6v+h"
+SECRET="6a0kj6z06h2(m$*)111_-(tq2_c+^+^k$&=8w8*s4r9*8j6v+h")
 
 SECRET_KEY = os.getenv('SECRET')                        /--импортируем в settings.py
 
@@ -120,7 +120,7 @@ LANGUAGE_CODE = 'ru-ru'
 
 pip freeze > requirements.txt  /-- создает файл со всеми библиотеками
 
-pip install -r ./requirements.txt  /--загружает все библиотеки из файла
+pip install -r requirements.txt  /--загружает все библиотеки из файла
 
 python manage.py runserver - запустить сервер
 

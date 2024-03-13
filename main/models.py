@@ -8,3 +8,7 @@ class Product(models.Model):
         max_digits=12, decimal_places=2, null=True
     )
     count = models.IntegerField(default=0)
+
+class Meta:
+    verbose_name = "Товар"
+    verbose_name_plural = "Товары"
